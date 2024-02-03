@@ -20,7 +20,10 @@
 
 .main {
   grid-area: main;
-  border: 1px solid black;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  gap: 10px;
+  width: 70%;
 }
 
 .sidebar {
@@ -28,7 +31,43 @@
   align-items: start;
   flex-direction: column;
   grid-area: sidebar;
-  border: 1px solid black;
+  width: 30%;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.card p {
+  padding: 2em;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+.txt_01 {
+  font-weight: lighter;
+  margin: 0%;
+}
+
+.boton {
+  display: flex;
+  width: 100px;
+  background-color: midnightblue;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100px;
+  margin: 1em;
+  color: #fff;
+  font-size: small;
+  font-weight: lighter;
 }
 
 .footer {
