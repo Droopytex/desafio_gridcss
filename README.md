@@ -1,2 +1,2 @@
-<h1>Desafío Grid css </h1> br
+<h1>Desafío Grid css </h1> 
 Se realiza desafío a partie de la grid css, y se personaliza con algunos detalles
